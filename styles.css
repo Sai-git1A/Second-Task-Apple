@@ -1,0 +1,467 @@
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+/* Nav-Bar */
+.nav-bar {
+  text-align: center;
+  background-color: black;
+  height: 44px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-content {
+  margin: 0;
+  padding: 0 22px;
+  position: relative;
+  top: 9px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  margin: 1.6%;
+  font-size: .7998rem
+}
+
+a:link, a:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.nav-text:hover {
+  color: #fff;
+}
+
+.icons {
+  font-size: 1.1rem;
+}
+
+/* Note */
+.note {
+  background-color: #f5f5f7;
+  text-align: center;
+  padding: 12px;
+}
+
+.note-text {
+  color: black;
+  font-size: .9rem;
+}
+
+.learn-more:link, .learn-more:visited {
+  color: #06c;
+  font-size: 14px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.fott-note {
+  color: black;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* Content */
+/* Phone */
+.phone {
+  background-color: #f9f9f9;
+  margin: 0;
+  margin-bottom: 1%;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.phone-text {
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.phone-subtext {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.phone-learn-more, .phone-shop {
+  color: #06c;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.phone-learn-more:hover, .phone-shop:hover {
+  text-decoration: underline;
+}
+
+.phone-img {
+  width: 50%;
+}
+
+/* se */
+.se {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.se-new {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.se-text {
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.se-subtext {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.se-learn-more, .se-shop {
+  color: #06c;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.se-learn-more:hover, .se-shop:hover {
+  text-decoration: underline;
+}
+
+.se-img {
+  width: 50%;
+}
+
+/* pad */
+.pad {
+  margin: 0;
+  background-color: black;
+}
+
+.pad1 {
+  display: inline-block;
+  text-align: center;
+  margin: 4%;
+  width: 40%;
+}
+
+.pad2 {
+  display: inline;
+}
+
+.pad-img {
+  width: 45%;
+}
+
+.pad-text {
+  color: #fff;
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.pad-subtext {
+  color: #fff;
+  line-height: 1;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.pad-learn-more, .pad-shop {
+  color: #2997ff;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.pad-learn-more:hover, .pad-shop:hover {
+  text-decoration: underline;
+}
+
+/* display mac studio */
+.display {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-top: 1%;
+  text-align: center;
+  width: 49.6%;
+}
+
+.display-text {
+  margin-top: 6%;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.display-subtext {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.display-learn-more, .display-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.display-learn-more:hover, .display-shop:hover {
+  text-decoration: underline;
+}
+
+.display-img {
+  margin-top: 6%;
+  margin-bottom: 4%;
+  width: 64%;
+}
+
+.mac {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 1%;
+  text-align: center;
+  width: 49%;
+}
+
+.mac-text {
+  margin-top: 6%;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.mac-subtext {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.mac-learn-more, .mac-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.mac-learn-more:hover, .mac-shop:hover {
+  text-decoration: underline;
+}
+
+.mac-img {
+  margin-top: 10%;
+  margin-bottom: 9%;
+  width: 75%;
+}
+
+/* phone watch */
+.phone13 {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-top: 1%;
+  text-align: center;
+  width: 49.6%
+}
+
+.phone13-text {
+  margin-top: 6%;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.phone13-subtext {
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.phone13-learn-more, .phone13-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.phone13-learn-more:hover, .phone13-shop:hover {
+  text-decoration: underline;
+}
+
+.phone13-img {
+  margin-top: 8%;
+  width: 100%;
+}
+
+.watch {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 1%;
+  text-align: center;
+  width: 49%;
+}
+
+.watch-text {
+  margin-top: 6%;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.watch-subtext {
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.watch-learn-more, .watch-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.watch-learn-more:hover, .watch-shop:hover {
+  text-decoration: underline;
+}
+
+.watch-img {
+  width: 72%;
+}
+
+/* pod TV */
+.pod {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-top: 1%;
+  text-align: center;
+  width: 49.6%;
+}
+
+.pod-text {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.pod-subtext {
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.pod-learn-more-shop {
+  margin-bottom: 6%;
+}
+.pod-learn-more, .pod-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.pod-learn-more:hover, .pod-shop:hover {
+  text-decoration: underline;
+}
+
+.pod-img {
+  width: 76%;
+}
+
+.tv {
+  background-image: url(Images/tv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 1%;
+  text-align: center;
+  width: 49%;
+}
+
+.tv-text {
+  color: #fff;
+  margin-top: 71%;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.tv-subtext {
+  color: #fff;
+  line-height: 1;
+  margin: 2% auto;
+  font-size: 1.3rem;
+  font-weight: normal;
+  width: 60%;
+}
+
+.tv-learn-more-shop {
+  margin-bottom: 6%;
+}
+
+.tv-learn-more, .tv-shop {
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.tv-learn-more:hover, .tv-shop:hover {
+  text-decoration: underline;
+}
+
+.tv-img {
+  width: 80%;
+  z-index: -1;
+}
+
+/* footer */
+.footer {
+  background-color: #f9f9f9;
+  margin-top: 1%;
+  text-align: left;
+  padding: 0 11%;
+}
+
+.footer-note-1 {
+  color: grey;
+  margin: 1% auto;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.footer-note-2 {
+  color: grey;
+  margin: 1% auto;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.footer-note-3 {
+  color: grey;
+  margin: 1% auto;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.footer-links-1 {
+  display: inline-block;
+}
+
+.footer-links-2 {
+  display: inline-block;
+}
+
+.footer-links-3 {
+  display: inline-block;
+}
+
+.footer-links-4 {
+  display: inline-block;
+}
+
+.footer-links-5 {
+  display: inline-block;
+}
