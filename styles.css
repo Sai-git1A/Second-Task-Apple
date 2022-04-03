@@ -1,40 +1,37 @@
 body {
-  background-color: #fff;
   margin: 0;
 }
 
-/* Nav-Bar */
+/* Navbar */
 .nav-bar {
-  text-align: center;
-  background-color: black;
+  background-color: #1d1d1f;
   height: 44px;
-  overflow: hidden;
+  text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
 }
 
-.nav-content {
-  margin: 0;
-  padding: 0 22px;
+.nav-items {
   position: relative;
-  top: 9px;
+  top: 16%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.nav-home, .nav-search, .nav-bag {
+  font-size: 1.1rem;
 }
 
-li {
+.nav-content {
+  padding: 1%;
   display: inline;
 }
 
-a {
-  margin: 1.6%;
-  font-size: .7998rem
+.nav-text {
+  color: lightgrey;
+  margin: .9%;
+  font-size: .7998rem;
+  text-decoration: none;
 }
 
 a:link, a:visited {
@@ -46,279 +43,290 @@ a:link, a:visited {
   color: #fff;
 }
 
-.icons {
-  font-size: 1.1rem;
+.nav-icon:hover {
+  color: #fff;
 }
 
 /* Note */
 .note {
   background-color: #f5f5f7;
+  margin-top: 3.5%;
+  padding: .8%;
   text-align: center;
-  padding: 12px;
-  position: relative;
-  top: 40px;
 }
 
 .note-text {
-  color: black;
-  font-size: .9rem;
+  font-size: .89rem
 }
 
-.learn-more:link, .learn-more:visited {
-  color: #06c;
+.learn-more {
   font-size: 14px;
   margin: 0;
+}
+
+.learn-more:link {
+  color: #06c;
   text-decoration: none;
 }
 
-.fott-note {
+.foot-note {
   color: black;
+  cursor: pointer;
   text-decoration: none;
-  margin: 0;
 }
 
-/* Content */
-/* Phone */
-.phone {
+/* New products */
+
+/* iPhone pro*/
+.iphone-pro {
   background-color: #f9f9f9;
-  margin: 0;
   margin-bottom: 1%;
-  padding-top: 3%;
   text-align: center;
 }
 
-.phone-text {
-  margin-top: 4%;
+.iphone-pro-title {
+  padding-top: 4%;
   font-size: 3.4rem;
   font-weight: 600;
 }
 
-.phone-subtext {
+.iphone-pro-sub {
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.phone-learn-more, .phone-shop {
+.iphone-pro-learn-more, .iphone-pro-shop {
   color: #06c;
   font-size: 1.4rem;
+  margin: 0 1.8%;
   text-decoration: none;
 }
 
-.phone-learn-more:hover, .phone-shop:hover {
+.iphone-pro-learn-more:hover, .iphone-pro-shop:hover {
   text-decoration: underline;
 }
 
-.phone-img {
+.iphone-pro-img {
   width: 50%;
 }
 
-/* se */
-.se {
+/* iPhone SE */
+.iphone-se {
   background-color: #f9f9f9;
-  margin: 0;
   padding-top: 3%;
   text-align: center;
 }
 
-.se-new {
+.iphone-se-new {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.se-text {
+.iphone-se-title {
   font-size: 3.3rem;
   font-weight: 600;
 }
 
-.se-subtext {
+.iphone-se-sub {
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.se-learn-more, .se-shop {
+.iphone-se-learn-more, .iphone-se-shop {
   color: #06c;
   font-size: 1.4rem;
+  margin: 0 1.8%;
   text-decoration: none;
 }
 
-.se-learn-more:hover, .se-shop:hover {
+.iphone-se-learn-more:hover, .iphone-se-shop:hover {
   text-decoration: underline;
 }
 
-.se-img {
+.iphone-se-img {
   width: 50%;
 }
 
-/* pad */
-.pad {
-  margin: 0;
+/* iPad */
+.ipad {
   background-color: black;
 }
 
-.pad1 {
+.ipad-left {
   display: inline-block;
   text-align: center;
-  margin: 4%;
-  width: 40%;
+  width: 50%
 }
 
-.pad2 {
-  display: inline;
-}
-
-.pad-img {
-  width: 45%;
-}
-
-.pad-text {
+.ipad-title {
   color: #fff;
   font-size: 3.3rem;
   font-weight: 600;
 }
 
-.pad-subtext {
+.ipad-sub {
   color: #fff;
   line-height: 1;
   font-size: 1.8rem;
   font-weight: 400;
 }
 
-.pad-learn-more, .pad-shop {
+.ipad-learn-more, .ipad-shop {
   color: #2997ff;
   font-size: 1.4rem;
+  margin: 0 1%;
   text-decoration: none;
 }
 
-.pad-learn-more:hover, .pad-shop:hover {
+.ipad-learn-more:hover, .ipad-shop:hover {
   text-decoration: underline;
 }
 
-/* display mac studio */
-.display {
+.ipad-right {
+  display: inline;
+}
+
+.ipad-img {
+  width: 45%;
+}
+
+/* studio-display and mac-studio */
+.studio-display-mac-studio {
+  margin: 1% auto;
+}
+
+/* Studio display */
+.studio-display {
   background-color: #f9f9f9;
+  margin-right: .5%;
   display: inline-block;
-  margin-top: 1%;
   text-align: center;
-  width: 49.6%;
-}
-
-.display-text {
-  margin-top: 6%;
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-
-.display-subtext {
-  line-height: 1;
-  font-size: 1.5rem;
-  font-weight: normal;
-}
-
-.display-learn-more, .display-shop {
-  color: #06c;
-  font-size: 1.1rem;
-  text-decoration: none;
-}
-
-.display-learn-more:hover, .display-shop:hover {
-  text-decoration: underline;
-}
-
-.display-img {
-  margin-top: 6%;
-  margin-bottom: 4%;
-  width: 64%;
-}
-
-.mac {
-  background-color: #f9f9f9;
-  display: inline-block;
-  margin-top: 1%;
-  margin-left: 1%;
-  text-align: center;
+  padding-top: 4%;
   width: 49%;
 }
 
-.mac-text {
-  margin-top: 6%;
+.studio-display-title {
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.mac-subtext {
+.studio-display-sub {
   line-height: 1;
   font-size: 1.5rem;
   font-weight: normal;
 }
 
-.mac-learn-more, .mac-shop {
+.studio-display-learn-more, .studio-display-shop {
   color: #06c;
   font-size: 1.1rem;
+  margin: 0 1%;
   text-decoration: none;
 }
 
-.mac-learn-more:hover, .mac-shop:hover {
+.studio-display-learn-more:hover, .studio-display-shop:hover {
   text-decoration: underline;
 }
 
-.mac-img {
-  margin-top: 10%;
-  margin-bottom: 9%;
-  width: 75%;
+.studio-display-img {
+  margin: 5% auto;
+  width: 50%;
 }
 
-/* phone watch */
-.phone13 {
+/* Mac studio */
+.mac-studio {
   background-color: #f9f9f9;
+  margin-left: .5%;
   display: inline-block;
-  margin-top: 1%;
   text-align: center;
-  width: 49.6%
+  padding-top: 4%;
+  width: 49.6%;
 }
 
-.phone13-text {
-  margin-top: 6%;
+.mac-studio-title {
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.phone13-subtext {
+.mac-studio-sub {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.mac-studio-learn-more, .mac-studio-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.mac-studio-learn-more:hover, .mac-studio-shop:hover {
+  text-decoration: underline;
+}
+
+.mac-studio-img {
+  margin: 10.4% auto;
+  width: 50%;
+}
+
+/* iPhone and Watch */
+.iphone-watch {
+  margin: 1% auto;
+}
+
+/* iPhone */
+.iphone {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-right: .5%;
+  text-align: center;
+  padding-top: 4%;
+  width: 49%;
+}
+
+.iphone-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.iphone-sub {
   line-height: 1;
   font-size: 1.3rem;
   font-weight: normal;
 }
 
-.phone13-learn-more, .phone13-shop {
+.iphone-learn-more, .iphone-shop {
   color: #06c;
   font-size: 1.1rem;
+  margin: 0 1%;
   text-decoration: none;
 }
 
-.phone13-learn-more:hover, .phone13-shop:hover {
+.iphone-learn-more:hover, .iphone-shop:hover {
   text-decoration: underline;
 }
 
-.phone13-img {
-  margin-top: 8%;
+.iphone-img {
+  margin: 8.18% auto;
   width: 100%;
 }
 
+/* Watch */
 .watch {
   background-color: #f9f9f9;
   display: inline-block;
-  margin-top: 1%;
-  margin-left: 1%;
+  margin-left: .5%;
   text-align: center;
-  width: 49%;
+  padding-top: 4%;
+  width: 49.6%;
 }
 
-.watch-text {
-  margin-top: 6%;
+.watch-title {
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.watch-subtext {
+.watch-sub {
   line-height: 1;
   font-size: 1.3rem;
   font-weight: normal;
@@ -327,6 +335,7 @@ a:link, a:visited {
 .watch-learn-more, .watch-shop {
   color: #06c;
   font-size: 1.1rem;
+  margin: 0 1%;
   text-decoration: none;
 }
 
@@ -335,82 +344,82 @@ a:link, a:visited {
 }
 
 .watch-img {
-  width: 72%;
+  margin: 5% auto;
+  width: 69%;
 }
 
-/* pod TV */
-.pod {
+/* Airpods and TV */
+.airpods-tv {
+  margin: 1% auto;
+}
+
+/* Airpods */
+.airpods {
   background-color: #f9f9f9;
   display: inline-block;
-  margin-top: 1%;
+  margin-right: .5%;
   text-align: center;
-  width: 49.6%;
+  padding-bottom: 4%;
+  width: 49%;
 }
 
-.pod-text {
-  margin: 0;
+.airpods-title {
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.pod-subtext {
+.airpods-sub {
   line-height: 1;
   font-size: 1.3rem;
   font-weight: normal;
 }
 
-.pod-learn-more-shop {
-  margin-bottom: 6%;
-}
-
-.pod-learn-more, .pod-shop {
+.airpods-learn-more, .airpods-shop {
   color: #06c;
   font-size: 1.1rem;
+  margin: 0 1%;
   text-decoration: none;
 }
 
-.pod-learn-more:hover, .pod-shop:hover {
+.airpods-learn-more:hover, .airpods-shop:hover {
   text-decoration: underline;
 }
 
-.pod-img {
-  width: 76%;
+.airpods-img {
+  width: 69%;
 }
 
+/* TV */
 .tv {
   background-image: url(Images/tv.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: inline-block;
-  margin-top: 1%;
-  margin-left: 1%;
+  margin-left: .5%;
   text-align: center;
-  width: 49%;
+  padding-top: 32.15%;
+  padding-bottom: 4%;
+  width: 49.6%;
 }
 
-.tv-text {
+.tv-title {
   color: #fff;
-  margin-top: 71%;
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.tv-subtext {
+.tv-sub {
   color: #fff;
   line-height: 1;
-  margin: 2% auto;
   font-size: 1.3rem;
   font-weight: normal;
-  width: 60%;
-}
-
-.tv-learn-more-shop {
-  margin-bottom: 6%;
+  padding: 0 24%;
 }
 
 .tv-learn-more, .tv-shop {
   color: #fff;
   font-size: 1.1rem;
+  margin: 0 1%;
   text-decoration: none;
 }
 
@@ -418,91 +427,131 @@ a:link, a:visited {
   text-decoration: underline;
 }
 
-.tv-img {
-  width: 80%;
-  z-index: -1;
-}
-
-/* footer */
+/* Footer */
 .footer {
   background-color: #f9f9f9;
-  margin-top: 1%;
+  margin: 1% auto;
+}
+
+.footer-text-links {
+  margin: 0 11%;
   text-align: left;
-  padding: 0 11%;
+  padding: 1% 0;
 }
 
-.footer-note-1 {
-  color: grey;
-  margin: 1% auto;
-  font-size: .8rem;
-  font-weight: 500;
-}
-
-.footer-note-2 {
-  color: grey;
-  margin: 1% auto;
-  font-size: .8rem;
-  font-weight: 500;
-}
-
-.footer-note-3 {
-  color: grey;
-  margin: 1% auto;
-  font-size: .8rem;
-  font-weight: 500;
-}
-
-.links-text {
-  font-size: .83rem;
-  font-weight: 500;
-  line-height: 1;
-}
-
-.footer-links-1 {
-  display: inline-block;
-  margin: 0;
-  position: relative;
-  top: -69px;
-  width: 18.2%;
-}
-
-.shop-links {
+.footer-text-1, .footer-text-2, .footer-text-3 {
   color: grey;
   display: block;
-  font-size: .8rem;
+  margin: 1% auto;
+  font-size: .75rem;
   font-weight: 500;
-  text-decoration: none;
-  line-height: 0;
 }
 
-.shop-links:hover {
+.footer-terms-conditions, .footer-terms {
+  color: dimgrey;
+}
+
+.footer-terms-conditions:hover {
   text-decoration: underline;
 }
 
-.footer-links-2 {
+.footer-terms:hover {
+  text-decoration: underline;
+}
+
+.footer-text-hr {
+  color: grey;
+}
+
+/* footer links */
+.footer-links-1, .footer-links-2, .footer-links-3, .footer-links-4, .footer-links-5 {
   display: inline-block;
-  margin: 0;
-  width: 20%;
+  width: 19.64%;
+}
+
+.footer-links-1 {
+  position: relative;
+  top: -73px;
 }
 
 .footer-links-3 {
-  display: inline-block;
-  margin: 0;
   position: relative;
-  top: -189px;
-  width: 20%;
+  top: -201px;
 }
 
 .footer-links-4 {
-  display: inline-block;
-  margin: 0;
   position: relative;
-  top: -75px;
-  width: 20%;
+  top: -81px;
 }
 
-.footer-links-5 {
-  display: inline-block;
-  margin: 0;
-  width: 20%;
+.footer-links-2-sub,
+.footer-links-4-sub, .footer-links-4-foot,
+.footer-links-5-sub {
+  margin: 12% auto;
+}
+
+.footer-links-1-title,
+.footer-links-2-title, .footer-links-2-sub-title,
+.footer-links-3-title,
+.footer-links-4-title, .footer-links-4-sub-title, .footer-links-4-foot-title,
+.footer-links-5-title,
+.footer-links-5-sub-title {
+  font-size: .83rem;
+  font-weight: 500;
+}
+
+.links {
+  color: grey;
+  display: block;
+  font-size: .8rem;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.footer-contact-text {
+  color: grey;
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+.footer-contact-text-link {
+  color: #06c;
+}
+
+.footer-contact-text-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright-text {
+  color: grey;
+  font-size: .8rem;
+  font-weight: normal;
+  margin-right: 4%;
+}
+
+.footer-copyright-links {
+  display: inline;
+}
+
+.copyright-links {
+  color: dimgrey;
+  font-size: .8rem;
+  font-weight: normal;
+  padding: 0 1%;
+}
+
+.copyright-links:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright-link-2,
+.footer-copyright-link-3,
+.footer-copyright-link-4,
+.footer-copyright-link-5 {
+  border-left: 1px solid dimgrey;
 }
