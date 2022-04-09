@@ -1,0 +1,278 @@
+.store-body {
+  background-color: #f5f5f7;
+  margin: 0;
+}
+
+/* Navbar */
+.nav-bar {
+  background-color: #1d1d1f;
+  height: 44px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-items {
+  position: relative;
+  top: 16%;
+}
+
+.nav-home, .nav-search, .nav-bag {
+  font-size: 1.1rem;
+}
+
+.nav-content {
+  padding: 1%;
+  display: inline;
+}
+
+.nav-text {
+  color: lightgrey;
+  margin: .9%;
+  font-size: .7998rem;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.nav-text:hover {
+  color: #fff;
+}
+
+.nav-icon:hover {
+  color: #fff;
+}
+
+/* Note */
+.note {
+  background-color: #fff;
+  margin-top: 3.5%;
+  padding: .8%;
+  text-align: center;
+}
+
+.note-text {
+  font-size: .89rem
+}
+
+.learn-more {
+  color: #06c;
+  font-size: 14px;
+  margin: 0;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.foot-note {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Store header */
+.store-header {
+  padding: 0 11.5%;
+}
+
+.store-header-text {
+  display: inline-block;
+  max-width: 640px;
+  padding: 80px 0 64px;
+  margin-right: 14%;
+}
+
+.store-header-title {
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -.003em;
+  display: inline;
+}
+
+.store-header-title2 {
+  color: #6e6e73;
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -.003em;
+  display: inline;
+}
+
+.store-header-contact {
+  display: inline-block;
+  height: 48px;
+  position: absolute;
+  top: 185px;
+}
+
+.store-header-contact-img {
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+}
+
+.store-header-contact-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-style: normal;
+  margin: 0;
+}
+
+.store-header-contact-link {
+  color: #06c;
+  display: block;
+}
+
+.store-header-contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Products */
+.products {
+  margin: 1% 0;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
+}
+
+.products-blank {
+  display: inline-block;
+  width: 11.18%;
+}
+
+.products-div {
+  display: inline-block;
+  margin: 1%;
+}
+
+.products-img {
+  height: 78px;
+  width: 120px;
+}
+
+.products-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-style: normal;
+  margin-top: 14%;
+  display: block;
+  text-align: center;
+}
+
+.products-text:hover {
+  color: #1d1d1f;
+  text-decoration: underline;
+}
+
+/* Latest Products */
+.latest-products {
+  margin-top: 5%;
+  width: 100%;
+}
+
+.latest-products-title {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+  margin-left: 11.5%;
+}
+
+.latest-products-title2 {
+  color: #6e6e73;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+}
+
+.latest-products-list {
+  margin: 2% 0;
+}
+
+.latest-products-div-blank {
+  display: inline-block;
+  width: 11.18%;
+}
+
+.latest-products-div {
+  white-space: normal;
+  box-shadow: 2px 4px 12px lightgrey;
+  border-radius: 18px;
+  display: inline-block;
+  height: 500px;
+  margin-right: 1%;
+  justify-content: center;
+  text-decoration: none;
+  transition: 1s;
+  width: 400px;
+}
+
+.latest-products-div:hover {
+  cursor: pointer;
+  /* transform: scale(1.1); */
+}
+
+.latest-products-content {
+  padding: 30px
+}
+
+.latest-products-title-1 {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6e6e73;
+  padding-bottom: 8px;
+  width: 204px;
+}
+
+.latest-products-title-2 {
+  color: black;
+  display: block;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+}
+
+.latest-products-title-3 {
+  display: block;
+  font-size: 17px;
+  font-weight: 400;
+  color: #1d1d1f;
+  padding-top: 10px;
+  width: 304px;
+}
+
+.iphone13pro {
+  background-image: url(Images/Store/iphone13pro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ipad {
+  background-image: url(Images/Store/ipad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ipad-title,
+.ipad-title-2,
+.ipad-title-3 {
+  color: #fff;
+}
