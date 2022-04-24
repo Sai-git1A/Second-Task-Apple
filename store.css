@@ -181,7 +181,6 @@ a:link, a:visited {
 /* Latest Products */
 .latest-products {
   margin-top: 5%;
-  width: 100%;
 }
 
 .latest-products-title {
@@ -204,6 +203,14 @@ a:link, a:visited {
 
 .latest-products-list {
   margin: 2% 0;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%
+}
+
+.latest-products-list::-webkit-scrollbar {
+  display: none;
 }
 
 .latest-products-div-blank {
@@ -215,18 +222,16 @@ a:link, a:visited {
   white-space: normal;
   box-shadow: 2px 4px 12px lightgrey;
   border-radius: 18px;
-  display: inline-block;
+  display: inline-flex;
   height: 500px;
   margin-right: 1%;
-  justify-content: center;
+  align-items: flex-start;
   text-decoration: none;
-  transition: 1s;
   width: 400px;
 }
 
 .latest-products-div:hover {
   cursor: pointer;
-  /* transform: scale(1.1); */
 }
 
 .latest-products-content {
@@ -275,4 +280,263 @@ a:link, a:visited {
 .ipad-title-2,
 .ipad-title-3 {
   color: #fff;
+}
+
+.mac-studio {
+  background-image: url(Images/Store/mac-studio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.studio-display {
+  background-image: url(Images/Store/studio-display.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iphonese {
+  background-image: url(Images/Store/iphonese.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iphone13 {
+  background-image: url(Images/Store/iphone13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.watch {
+  background-image: url(Images/Store/watch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Specialist */
+.specialist {
+  margin-top: 5%;
+}
+
+.specialist-title {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+  margin-left: 11.5%;
+}
+
+.specialist-title2 {
+  color: #6e6e73;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+}
+
+.store-card-div {
+  margin: 2% 11.5%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.store-card-div-1 {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+.store-card-div-2 {
+  display: inline-block;
+}
+
+.store-card-content {
+  padding: 30px;
+}
+
+.store-card-content-3 {
+  padding-right: 0;
+  width: 200px;
+}
+
+.store-card-title {
+  color: black;
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+}
+
+.store-card-title-2 {
+  color: black;
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+}
+
+.store-card-title-3 {
+  color: black;
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+}
+
+.store-card {
+  box-shadow: 2px 4px 12px lightgrey;
+  border-radius: 18px;
+  text-decoration: none;
+  width: 480px;
+}
+
+.store-card:hover {
+  cursor: pointer;
+}
+
+.store-card-1 {
+  background-image: url(Images/Store/specialist.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.store-card-2 {
+  background-image: url(Images/Store/store-card.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+  margin-bottom: 4%;
+}
+
+.store-card-3 {
+  background-image: url(Images/Store/genius.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+}
+
+/* Payment */
+.payment {
+  margin-top: 5%;
+}
+
+.payment-title {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+  margin-left: 11.5%;
+}
+
+.payment-title2 {
+  color: #6e6e73;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+}
+
+.payment-methods {
+  margin: 2% 0;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%
+}
+
+.payment-methods::-webkit-scrollbar {
+  display: none;
+}
+
+.payment-blank {
+  display: inline-block;
+  width: 11.18%;
+}
+
+.payment-method {
+  background-color: #fff;
+  white-space: normal;
+  box-shadow: 2px 4px 12px lightgrey;
+  border-radius: 18px;
+  display: inline-flex;
+  height: 240px;
+  margin-right: 1%;
+  align-items: flex-start;
+  text-decoration: none;
+  width: 313px;
+}
+
+.payment-method {
+  padding: 30px;
+}
+
+.payment-method:hover {
+  cursor: pointer;
+}
+
+.payment-method-icon {
+  color: #68cc45;
+  font-size: 2.5rem;
+}
+
+.payment-method-text {
+  color: black;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+}
+
+.payment-method-subtext {
+  color: #68cc45;
+  display: block;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+}
+
+.payment-method-icon-2,
+.payment-method-text-2 {
+  color: #ac39ff;
+}
+
+.payment-method-subtext-2 {
+  color: black;
+}
+
+.payment-method-icon-3,
+.payment-method-subtext-3 {
+  color: #007aff;
+}
+
+.payment-method-text-3 {
+  color: black;
+}
+
+.payment-method-icon-4 {
+  background-image: linear-gradient(to right,#f8ab5e 30%,#f36961 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.payment-method-text-4 {
+  background-image: linear-gradient(to right,#f8ab5e 0,#f36961 20%,#a176c8 40%,#759beb 60%,#65beb3 80%,#70db96 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.payment-method-text-p {
+  color: black;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+}
+
+.payment-method-icon-5 {
+  color: #ff0053;
 }
