@@ -47,6 +47,115 @@ a:link, a:visited {
   color: #fff;
 }
 
+/* Popup dialog */
+.popup {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: none;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  left: 18%;
+  top: 12%;
+}
+
+.popup-content {
+  margin: 2%;
+}
+
+.close {
+  background-color: #fff;
+  border: none;
+  margin-left: 94%;
+}
+
+.close-icon {
+  font-size: 1.5rem;
+}
+
+.popup-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.popup-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.popup-img {
+  margin-top: 2%;
+  width: 50%;
+}
+
+/* Mode */
+.mode {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  margin: 1%;
+  position: fixed;
+  width: 6%;
+  z-index: 1;
+}
+
+.mode-btn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: bold;
+  margin: 10% 20%;
+}
+
+section.dark .iphone-pro {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .iphone-se {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .studio-display {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .mac-studio {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .iphone {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .watch {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .airpods {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .tv {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .footer {
+  background-color: black;
+  color: #fff;
+}
+
 /* Note */
 .note {
   background-color: #f5f5f7;
@@ -113,6 +222,7 @@ a:link, a:visited {
 /* iPhone SE */
 .iphone-se {
   background-color: #f9f9f9;
+  margin-bottom: 1%;
   padding-top: 3%;
   text-align: center;
 }
