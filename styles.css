@@ -91,24 +91,59 @@ a:link, a:visited {
   width: 50%;
 }
 
+/* Location Weather Mode */
+.lwm-div{
+  background-color: #DFD3C3;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  padding: 1%;
+  position: fixed;
+  width: 12%;
+  z-index: 1;
+}
+
+.lwm-hr {
+  background-color: #fff;
+  border: none;
+  border-top: 1px solid lightgrey;
+  margin: 5% 0;
+  opacity: 1;
+}
+
+/* Location */
+.city {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Weather */
+.weather {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.weather-icon {
+  margin-left: 2px;
+  width: 36px;
+}
+
 /* Mode */
 .mode {
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 8px;
-  text-align: center;
-  margin: 1%;
-  position: fixed;
-  width: 6%;
-  z-index: 1;
+  background-color: black;
+  border-radius: 5px;
+  display: inline;
+  padding: 1%;
 }
 
 .mode-btn {
   background-color: transparent;
   border: none;
-  color: black;
+  color: white;
   font-weight: bold;
-  margin: 10% 20%;
 }
 
 section.dark .iphone-pro {
