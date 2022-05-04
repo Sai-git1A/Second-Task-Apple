@@ -32,7 +32,7 @@ function mode() {
   }
 }
 
-// Location
+// Location and Weather
 var cityName = document.getElementById("city");
 
 function getLocation() {
@@ -44,7 +44,11 @@ function getLocation() {
 }
 
 function latlong(position) {
-  var url = "https://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&appid=3326b4fff200d14de2ee14b0590940e1";
+  const lat = position.coords.latitude;
+  const long = position.coords.longitude;
+  const apiKey = "3326b4fff200d14de2ee14b0590940e1";
+  const unit = "metric"
+  var url = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&appid=" + apiKey + "&units=" + unit ;
   fetch(url)
      .then(response => response.json())
      .then(data => weatherData(data));
@@ -56,9 +60,9 @@ function weatherData(data) {
   const name = data.name;
   const temp = data.main.temp;
   const icon = data.weather[0].icon;
+  var iconURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
 
   cityName.innerHTML = name;
-  weatherTemp.innerHTML = Math.floor(temp - 273.15) + "°C";
-  var iconURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+  weatherTemp.innerHTML = temp + "°C";
   weatherIcon.src = iconURL;
 }
