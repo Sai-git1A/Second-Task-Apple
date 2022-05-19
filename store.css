@@ -540,3 +540,140 @@ a:link, a:visited {
 .payment-method-icon-5 {
   color: #ff0053;
 }
+
+/* Accessories */
+.accessories {
+    margin-top: 5%;
+}
+
+.accessories-title {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    margin-left: 11.5%;
+}
+
+.accessories-list {
+    white-space: nowrap;
+    width: 100%;
+    margin: 2% 0;
+    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.accessories-list-align {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 11.18%;
+}
+
+.accessories-items {
+    background-image: url(Images/Store/accessories-card.jpg);
+    background-size: cover;
+    box-shadow: lightgrey 2px 4px 12px;
+    display: inline-flex;
+    white-space: normal;
+    height: 500px;
+    margin-right: 20px;
+    width: 400px;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    text-decoration: none;
+}
+
+.accessories-items-title {
+    color: black;
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    padding-top: 20px;
+    margin: 30px;
+}
+
+.accessories-item-div {
+    background-color: rgb(255, 255, 255);
+    box-shadow: lightgrey 2px 4px 12px;
+    margin-right: 20px;
+    height: 500px;
+    display: inline-flex;
+    justify-content: center;
+    width: 313px;
+    border-radius: 18px;
+    text-decoration: none;
+}
+
+.accessories-item-content {
+    padding-top: 41px;
+    margin: 30px;
+}
+
+.accessories-item-img {
+    display: block;
+    height: 230px;
+    margin: auto;
+}
+
+.accessories-color-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.accessories-color-none-div {
+  margin: 21.5% 0;
+}
+
+.accessories-colors {
+    margin-right: 7px;
+    height: 12px;
+    width: 12px;
+}
+
+.accessories-colors-more {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: rgb(110, 110, 115);
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.accessories-item-status-text {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: rgb(191, 72, 0);
+    display: block;
+}
+
+.accessories-item-title-div2 {
+  margin-bottom: 24%;
+}
+
+.accessories-item-title {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+    color: rgb(29, 29, 31);
+    white-space: normal;
+}
+
+.accessories-item-price-div {
+    margin-top: 10.5%;
+}
+
+.accessories-item-price {
+    color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    white-space: normal;
+}
