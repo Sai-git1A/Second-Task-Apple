@@ -558,9 +558,12 @@ a:link, a:visited {
     white-space: nowrap;
     width: 100%;
     margin: 2% 0;
-    overflow: scroll;
+    overflow: hidden;
     overflow-x: scroll;
-    overflow-y: hidden;
+}
+
+.accessories-list::-webkit-scrollbar {
+  display: none;
 }
 
 .accessories-list-align {
@@ -676,4 +679,111 @@ a:link, a:visited {
     font-weight: 400;
     letter-spacing: -0.016em;
     white-space: normal;
+}
+
+/* AirPods */
+.airpods {
+  margin-top: 5%;
+}
+
+.airpods-title {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+  margin-left: 11.5%;
+}
+
+.airpods-title2 {
+  color: #6e6e73;
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .007em;
+  display: inline;
+}
+
+.airpods-list {
+  display: flex;
+  margin: 2% 0;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%
+}
+
+.airpods-list::-webkit-scrollbar {
+  display: none;
+}
+
+.airpods-list-blank {
+  display: inline-flex;
+  margin-left: 11.18%;
+}
+
+.airpods-list-item {
+  background-color: white;
+  box-shadow: lightgrey 2px 4px 12px;
+  margin-right: 20px;
+  height: 500px;
+  display: inline-flex;
+  justify-content: center;
+  width: 313px;
+  border-radius: 18px;
+  text-decoration: none;
+}
+
+.airpods-list-content {
+  padding-top: 41px;
+  margin: 30px;
+}
+
+.airpods-item-img {
+  display: block;
+  height: 230px;
+  margin: auto;
+}
+
+.airpods-colors-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 12%;
+}
+
+.airpods-item-status {
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: rgb(191, 72, 0);
+  display: block;
+  margin-bottom: 1.5%;
+}
+
+.airpods-item-title {
+  display: block;
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  color: black;
+  white-space: normal;
+  margin-bottom: 25%;
+}
+
+.airpods-item-price {
+  color: black;
+  font-size: 14px;
+  line-height: 1.28577;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+  white-space: normal;
+}
+
+.airpods-colors {
+  margin-right: 7px;
+  height: 12px;
+  width: 12px;
 }
