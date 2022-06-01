@@ -1,0 +1,36 @@
+[
+  {
+    "videoURL":"URL",
+    "title":"Steram award-winning Apple Originals on every screen."
+  },
+  {
+    "imgURL":"URL",
+    "title":"The Morning Show",
+    "content":"Drama"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Finch",
+    "content":"Advencher"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Foundation",
+    "content":"Si-Fi"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Prehistoric Planet",
+    "content":"Documentary"
+  },
+  {
+    "imgURL":"URL",
+    "title":"They call me Magic",
+    "content":"Documentary"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Harriet the spy",
+    "content":"Kids & Family"
+  }
+]

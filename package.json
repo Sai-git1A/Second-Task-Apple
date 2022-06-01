@@ -1,0 +1,25 @@
+{
+  "name": "apple-project",
+  "version": "1.0.0",
+  "description": "Apple Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sai-git1A/Second-Task-Apple.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sai-git1A/Second-Task-Apple/issues"
+  },
+  "homepage": "https://github.com/Sai-git1A/Second-Task-Apple#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
+  }
+}

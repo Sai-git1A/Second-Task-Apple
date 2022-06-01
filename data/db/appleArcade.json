@@ -1,0 +1,36 @@
+[
+  {
+    "videoURL":"URL",
+    "title":"Best collection of mobile games for every player."
+  },
+  {
+    "imgURL":"URL",
+    "title":"Cut the Rope Remastered",
+    "album":"Puzzle"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Crossy Road Castle",
+    "album":"Action"
+  },
+  {
+    "imgURL":"URL",
+    "title":"MasterChef: Let's cook!",
+    "album":"Casual"
+  },
+  {
+    "imgURL":"URL",
+    "title":"What the Golf?",
+    "album":"Casual"
+  },
+  {
+    "imgURL":"URL",
+    "title":"SongPop Party",
+    "album":"Music"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Oceanhorn 2",
+    "album":"Adventuer"
+  }
+]

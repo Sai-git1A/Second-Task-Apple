@@ -1,0 +1,36 @@
+[
+  {
+    "videoURL":"URL",
+    "title":"Listen to music you love in spatial audio with Dolby Atoms."
+  },
+  {
+    "imgURL":"URL",
+    "title":"Piano Chill",
+    "album":"Apple Music Classical"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Sleep Sounds",
+    "album":"Apple Music Sleep"
+  },
+  {
+    "imgURL":"URL",
+    "title":"A-List Pop",
+    "album":"Apple Music Pop"
+  },
+  {
+    "imgURL":"URL",
+    "title":"iDale Pop!",
+    "album":"Apple Music Pop Latino"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Today's Hits",
+    "album":"Apple Music Hits"
+  },
+  {
+    "imgURL":"URL",
+    "title":"Vilon Play",
+    "album":"Apple Music Classical"
+  }
+]

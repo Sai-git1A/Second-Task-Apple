@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+
+/* Navbar */
+.nav-bar {
+  background-color: #1d1d1f;
+  height: 44px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-items {
+  position: relative;
+  top: 16%;
+}
+
+.nav-home, .nav-search, .nav-bag {
+  font-size: 1.1rem;
+}
+
+.nav-content {
+  padding: 1%;
+  display: inline;
+}
+
+.nav-text {
+  color: lightgrey;
+  margin: .9%;
+  font-size: .7998rem;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.nav-text:hover {
+  color: #fff;
+}
+
+.nav-icon:hover {
+  color: #fff;
+}
+
+/* Only on Apple */
+.services-div {
+  background-color: rgb(249 249 250);
+  margin-top: 3.5%;
+  display: flex;
+  padding: 2.5% 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.services-item {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.services-icon {
+  color: #1d1d1f;
+  margin-bottom: 5px;
+  font-size: 1.9rem;
+}
+
+.apple-tv-icon {
+  font-size: 1.2rem;
+}
+
+.services-icon-text {
+  color: #1d1d1f;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.services-text {
+  color: #1d1d1f;
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  display: block;
+  margin: 0;
+}
+
+.services-text:hover {
+  color: #06c;
+}
+
+.only-on-apple-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 91px 0 100px 0;
+}
+
+.only-on-apple-title,
+.only-on-apple-title2 {
+  font-size: 96px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.014em;
+}
+
+.only-on-apple-subtitle-div {
+  max-width: 890px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 45px
+}
+
+.only-on-apple-subtitle {
+  color: #86868b;
+  font-size: 24px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: .009em;
+}
