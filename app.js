@@ -1,10 +1,12 @@
+//jshint esversion:6
+
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
-const mongoURL = "mongodb://localhost://27017";
-//const mongoURL = "mongodb+srv://saiuser:sai123@cluster0.k2vj3ey.mongodb.net/?retryWrites=true&w=majority";
+//const mongoURL = "mongodb://localhost://27017";
+const mongoURL = "mongodb+srv://saiuser:sai123@cluster0.k2vj3ey.mongodb.net/?retryWrites=true&w=majority";
 let db;
 
 app.use(express.static("files"));
