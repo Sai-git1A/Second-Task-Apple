@@ -1,0 +1,702 @@
+body {
+  margin: 0;
+}
+
+/* Navbar */
+.nav-bar {
+  background-color: #1d1d1f;
+  height: 44px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-items {
+  position: relative;
+  top: 16%;
+}
+
+.nav-home, .nav-search, .nav-bag {
+  font-size: 1.1rem;
+}
+
+.nav-content {
+  padding: 1%;
+  display: inline;
+}
+
+.nav-text {
+  color: lightgrey;
+  margin: .9%;
+  font-size: .7998rem;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.nav-text:hover {
+  color: #fff;
+}
+
+.nav-icon:hover {
+  color: #fff;
+}
+
+/* Popup dialog */
+.popup {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: none;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  left: 18%;
+  top: 12%;
+}
+
+.popup-content {
+  margin: 2%;
+}
+
+.close {
+  background-color: #fff;
+  border: none;
+  margin-left: 94%;
+}
+
+.close-icon {
+  font-size: 1.5rem;
+}
+
+.popup-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.popup-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.popup-img {
+  margin-top: 2%;
+  width: 50%;
+}
+
+/* Location Weather Mode */
+.lwm-div{
+  background-color: #D0CAB2;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 1%;
+  text-align: center;
+  padding: 1%;
+  position: fixed;
+  width: 12%;
+  z-index: 1;
+}
+
+.lwm-hr {
+  background-color: #fff;
+  border: none;
+  border-top: 1px solid lightgrey;
+  margin: 5% 0;
+  opacity: 1;
+}
+
+/* Location */
+.city {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Weather */
+.weather {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.weather-icon {
+  margin-left: 2px;
+  width: 36px;
+}
+
+/* Mode */
+.mode {
+  background-color: black;
+  border-radius: 5px;
+  display: inline;
+  padding: 1%;
+}
+
+.mode-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+section.dark .iphone-pro {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .iphone-se {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .studio-display {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .mac-studio {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .iphone {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .watch {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .airpods {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .tv {
+  background-color: black;
+  color: #fff;
+}
+
+section.dark .footer {
+  background-color: black;
+  color: #fff;
+}
+
+/* Note */
+.note {
+  background-color: #f5f5f7;
+  margin-top: 3.5%;
+  padding: .8%;
+  text-align: center;
+}
+
+.note-text {
+  font-size: .89rem
+}
+
+.learn-more {
+  font-size: 14px;
+  margin: 0;
+}
+
+.learn-more:link {
+  color: #06c;
+  text-decoration: none;
+}
+
+.foot-note {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* New products */
+
+/* iPhone pro*/
+.iphone-pro {
+  background-color: #f9f9f9;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.iphone-pro-title {
+  padding-top: 4%;
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+
+.iphone-pro-sub {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.iphone-pro-learn-more, .iphone-pro-shop {
+  color: #06c;
+  font-size: 1.4rem;
+  margin: 0 1.8%;
+  text-decoration: none;
+}
+
+.iphone-pro-learn-more:hover, .iphone-pro-shop:hover {
+  text-decoration: underline;
+}
+
+.iphone-pro-img {
+  width: 50%;
+}
+
+/* iPhone SE */
+.iphone-se {
+  background-color: #f9f9f9;
+  margin-bottom: 1%;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.iphone-se-new {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.iphone-se-title {
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.iphone-se-sub {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.iphone-se-learn-more, .iphone-se-shop {
+  color: #06c;
+  font-size: 1.4rem;
+  margin: 0 1.8%;
+  text-decoration: none;
+}
+
+.iphone-se-learn-more:hover, .iphone-se-shop:hover {
+  text-decoration: underline;
+}
+
+.iphone-se-img {
+  width: 50%;
+}
+
+/* iPad */
+.ipad {
+  background-color: black;
+}
+
+.ipad-left {
+  display: inline-block;
+  text-align: center;
+  width: 50%
+}
+
+.ipad-title {
+  color: #fff;
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.ipad-sub {
+  color: #fff;
+  line-height: 1;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.ipad-learn-more, .ipad-shop {
+  color: #2997ff;
+  font-size: 1.4rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.ipad-learn-more:hover, .ipad-shop:hover {
+  text-decoration: underline;
+}
+
+.ipad-right {
+  display: inline;
+}
+
+.ipad-img {
+  width: 45%;
+}
+
+/* studio-display and mac-studio */
+.studio-display-mac-studio {
+  margin: 1% auto;
+}
+
+/* Studio display */
+.studio-display {
+  background-color: #f9f9f9;
+  margin-right: .5%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 4%;
+  width: 49%;
+}
+
+.studio-display-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.studio-display-sub {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.studio-display-learn-more, .studio-display-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.studio-display-learn-more:hover, .studio-display-shop:hover {
+  text-decoration: underline;
+}
+
+.studio-display-img {
+  margin: 5% auto;
+  width: 50%;
+}
+
+/* Mac studio */
+.mac-studio {
+  background-color: #f9f9f9;
+  margin-left: .5%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 4%;
+  width: 49.6%;
+}
+
+.mac-studio-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.mac-studio-sub {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.mac-studio-learn-more, .mac-studio-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.mac-studio-learn-more:hover, .mac-studio-shop:hover {
+  text-decoration: underline;
+}
+
+.mac-studio-img {
+  margin: 10.4% auto;
+  width: 50%;
+}
+
+/* iPhone and Watch */
+.iphone-watch {
+  margin: 1% auto;
+}
+
+/* iPhone */
+.iphone {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-right: .5%;
+  text-align: center;
+  padding-top: 4%;
+  width: 49%;
+}
+
+.iphone-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.iphone-sub {
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.iphone-learn-more, .iphone-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.iphone-learn-more:hover, .iphone-shop:hover {
+  text-decoration: underline;
+}
+
+.iphone-img {
+  margin: 8.18% auto;
+  width: 100%;
+}
+
+/* Watch */
+.watch {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-left: .5%;
+  text-align: center;
+  padding-top: 4%;
+  width: 49.6%;
+}
+
+.watch-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.watch-sub {
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.watch-learn-more, .watch-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.watch-learn-more:hover, .watch-shop:hover {
+  text-decoration: underline;
+}
+
+.watch-img {
+  margin: 5% auto;
+  width: 69%;
+}
+
+/* Airpods and TV */
+.airpods-tv {
+  margin: 1% auto;
+}
+
+/* Airpods */
+.airpods {
+  background-color: #f9f9f9;
+  display: inline-block;
+  margin-right: .5%;
+  text-align: center;
+  padding-bottom: 4%;
+  width: 49%;
+}
+
+.airpods-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.airpods-sub {
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.airpods-learn-more, .airpods-shop {
+  color: #06c;
+  font-size: 1.1rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.airpods-learn-more:hover, .airpods-shop:hover {
+  text-decoration: underline;
+}
+
+.airpods-img {
+  width: 69%;
+}
+
+/* TV */
+.tv {
+  background-image: url(Images/tv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-left: .5%;
+  text-align: center;
+  padding-top: 32.15%;
+  padding-bottom: 4%;
+  width: 49.6%;
+}
+
+.tv-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.tv-sub {
+  color: #fff;
+  line-height: 1;
+  font-size: 1.3rem;
+  font-weight: normal;
+  padding: 0 24%;
+}
+
+.tv-learn-more, .tv-shop {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+.tv-learn-more:hover, .tv-shop:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #f9f9f9;
+  margin: 1% auto;
+}
+
+.footer-text-links {
+  margin: 0 11%;
+  text-align: left;
+  padding: 1% 0;
+}
+
+.footer-text-1, .footer-text-2, .footer-text-3 {
+  color: grey;
+  display: block;
+  margin: 1% auto;
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+.footer-terms-conditions, .footer-terms {
+  color: dimgrey;
+}
+
+.footer-terms-conditions:hover {
+  text-decoration: underline;
+}
+
+.footer-terms:hover {
+  text-decoration: underline;
+}
+
+.footer-text-hr {
+  color: grey;
+}
+
+/* footer links */
+.footer-links-1, .footer-links-2, .footer-links-3, .footer-links-4, .footer-links-5 {
+  display: inline-block;
+  width: 19.64%;
+}
+
+.footer-links-1 {
+  position: relative;
+  top: -73px;
+}
+
+.footer-links-3 {
+  position: relative;
+  top: -201px;
+}
+
+.footer-links-4 {
+  position: relative;
+  top: -81px;
+}
+
+.footer-links-2-sub,
+.footer-links-4-sub, .footer-links-4-foot,
+.footer-links-5-sub {
+  margin: 12% auto;
+}
+
+.footer-links-1-title,
+.footer-links-2-title, .footer-links-2-sub-title,
+.footer-links-3-title,
+.footer-links-4-title, .footer-links-4-sub-title, .footer-links-4-foot-title,
+.footer-links-5-title,
+.footer-links-5-sub-title {
+  font-size: .83rem;
+  font-weight: 500;
+}
+
+.links {
+  color: grey;
+  display: block;
+  font-size: .8rem;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.footer-contact-text {
+  color: grey;
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+.footer-contact-text-link {
+  color: #06c;
+}
+
+.footer-contact-text-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright-text {
+  color: grey;
+  font-size: .8rem;
+  font-weight: normal;
+  margin-right: 4%;
+}
+
+.footer-copyright-links {
+  display: inline;
+}
+
+.copyright-links {
+  color: dimgrey;
+  font-size: .8rem;
+  font-weight: normal;
+  padding: 0 1%;
+}
+
+.copyright-links:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright-link-2,
+.footer-copyright-link-3,
+.footer-copyright-link-4,
+.footer-copyright-link-5 {
+  border-left: 1px solid dimgrey;
+}

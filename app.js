@@ -13,7 +13,7 @@ app.use(express.static("files"));
 
 
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/views/index.html");
 });
 
 // Latest Products
